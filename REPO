@@ -1,0 +1,14 @@
+d:oss
+d:netatalk
+d:weechat
+f:733a5a019d3f9a462a912646f7ed7ad1:oss/Pkgfile
+f:e8b198856c2f793ad47c4e78d8e8e7d5:oss/rc.oss
+f:9ce01f71493e621dccd5d361921740fa:oss/.md5sum
+f:21361f3eb47e5e9b2c32c6e898f039dc:oss/.footprint
+f:aac243e1899815910570c5d7707a489f:netatalk/Pkgfile
+f:78051cf352cd1bb10417d6865001a15e:netatalk/.md5sum
+f:ad3db819edcbc1bd1a47392aaa56de02:netatalk/netatalk
+f:5513cfabe6f578b1475d80e660d1dd98:netatalk/.footprint
+f:f00f2aeb28a7f86fc3ace8bdceae894e:weechat/Pkgfile
+f:13b436178990c37a8103d5348038f766:weechat/.md5sum
+f:82426951905465fe488642498f535d50:weechat/.footprint
