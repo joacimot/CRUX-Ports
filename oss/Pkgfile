@@ -1,0 +1,26 @@
+# Description: Open Sound System for Linux
+# URL: http://www.opensound.com/
+# Maintainer: Joacim Olsen Tangen, joacim at joac dot im
+# Packager: Hannes Mayer, kontakt at ecarux dot de 
+# Depends on: 
+
+name=oss
+version=4.2-build2007
+release=1 
+source=(http://www.4front-tech.com/developer/sources/stable/gpl/$name-v$version-src-gpl.tar.bz2 rc.oss)
+
+build() {
+	mkdir build
+ 
+	cd $name-v$version-src-gpl
+	#sed -i "s|export HAVE_ALSA=1|# export HAVE_ALSA=1|g" configure
+	#sed -i "s|700|755|g" setup/Linux/build.sh
+
+	cd $SRC/build		
+	unset CFLAGS
+	$SRC/$name-v$version-src-gpl/configure --enable-libsalsa=NO
+	make build
+
+	cp -r prototype/{etc,usr} $PKG/
+	install -Dm755 $SRC/rc.oss $PKG/etc/rc.d/oss
+}
