@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# /etc/rc.d/netatalk: start/stop netatalk daemon
+#
+
+case $1 in
+start)
+  /usr/sbin/netatalk
+  ;;
+stop)
+  killall -q /usr/sbin/netatalk
+  ;;
+restart)
+  $0 stop
+  sleep 1
+  $0 start
+  ;;
+*)
+  echo "usage: $0 [start|stop|restart]"
+  ;;
+esac
+
+# End of file
