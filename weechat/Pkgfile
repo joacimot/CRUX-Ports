@@ -1,0 +1,22 @@
+# Description: WeeChat is a fast, light and extensible chat client
+# URL: http://www.weechat.org/
+# Packager: nogagplz
+# Maintainer: Joacim Olsen Tangen, joacimot at gmail dot com
+# Depends on: ncurses, libgcrypt, gnutls, cmake
+# Nice to have: perl, lua, python, ruby, guile
+
+name=weechat
+version=0.4.0
+release=1
+source=(http://www.weechat.org/files/src/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	
+	mkdir build
+	cd build
+
+	cmake .. -DPREFIX=/usr -DMANDIR=/usr/man -DENABLE_NLS=off
+	make
+	make DESTDIR=$PKG install
+}
