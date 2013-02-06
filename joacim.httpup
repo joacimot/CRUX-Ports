@@ -1,0 +1,8 @@
+#
+# /etc/ports/joacim.httpup: Joacim's port collection
+#
+
+ROOT_DIR=/usr/ports/joacim
+URL=http://raw.github.com/joacimot/CRUX-Ports/master
+
+# End of file
