@@ -17,8 +17,7 @@ build() {
 	#sed -i "s|700|755|g" setup/Linux/build.sh
 
 	cd setup/Linux
-	patch -p2 -i $SRC/rm-init-scripts.patch
-	rm oss/build/install.sh.orig
+	patch --no-backup-if-mismatch -p2 -i $SRC/rm-init-scripts.patch
 
 	cd $SRC/build		
 	unset CFLAGS
