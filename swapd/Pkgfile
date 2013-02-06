@@ -17,7 +17,8 @@ build () {
 	sed -e "s/@sysconfdir@/\\\${DESTDIR}\/@sysconfdir@/g" -i Makefile.in
 	sed -e "s/@mandir@/\\\${DESTDIR}\/@mandir@/g" -i Makefile.in
 
-  ./configure --prefix=/usr
+  ./configure --prefix=/usr \
+	            --sysconfdir=/etc
   make
   make DESTDIR=$PKG install
 

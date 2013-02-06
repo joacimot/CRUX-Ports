@@ -1,9 +1,8 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/rc.d/
 -rwxr-xr-x	root/root	etc/rc.d/swapd
+-rw-r--r--	root/root	etc/swapd.conf
 drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/etc/
--rw-r--r--	root/root	usr/etc/swapd.conf
 drwxr-xr-x	root/root	usr/man/
 drwxr-xr-x	root/root	usr/man/man5/
 -rw-r--r--	root/root	usr/man/man5/swapd.conf.5.gz
