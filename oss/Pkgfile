@@ -7,7 +7,7 @@
 name=oss
 version=4.2-build2007
 release=1 
-source=(http://www.4front-tech.com/developer/sources/stable/gpl/$name-v$version-src-gpl.tar.bz2 rc.oss)
+source=(http://www.4front-tech.com/developer/sources/stable/gpl/$name-v$version-src-gpl.tar.bz2 rc.oss rm-init-scripts.patch)
 
 build() {
 	mkdir build
@@ -16,6 +16,10 @@ build() {
 	#sed -i "s|export HAVE_ALSA=1|# export HAVE_ALSA=1|g" configure
 	#sed -i "s|700|755|g" setup/Linux/build.sh
 
+	cd setup/Linux
+	patch -p2 -i $SRC/rm-init-scripts.patch
+	rm oss/build/install.sh.orig
+
 	cd $SRC/build		
 	unset CFLAGS
 	$SRC/$name-v$version-src-gpl/configure --enable-libsalsa=NO
@@ -23,4 +27,5 @@ build() {
 
 	cp -r prototype/{etc,usr} $PKG/
 	install -Dm755 $SRC/rc.oss $PKG/etc/rc.d/oss
+	mv $PKG/usr/share/man $PKG/usr
 }
