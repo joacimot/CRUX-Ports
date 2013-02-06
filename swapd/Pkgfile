@@ -1,6 +1,6 @@
 # Description: Swapd is a swap daemon for POSIX-compliant operating systems.
 # URL: http://www.rkeene.org/files/oss/swapd/
-# Maintainer: Joacim Olsen Tangen, joacimot at gmail dot com
+# Maintainer: Joacim Olsen Tangen, joacim at joac dot im
 # Depends on: 
 
 name=swapd
