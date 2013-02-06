@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# /etc/rc.d/samba: start/stop swap file daemon
+#
+
+case $1 in
+start)
+	/usr/sbin/swapd
+	;;
+stop)
+	kill `pidof swapd`
+	;;
+restart)
+	$0 stop
+	sleep 2
+	$0 start
+	;;
+*)
+	echo "usage: $0 [start|stop|restart]"
+	;;
+esac
+
+# End of file

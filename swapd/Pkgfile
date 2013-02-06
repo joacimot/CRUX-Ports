@@ -1,0 +1,25 @@
+# Description: Swapd is a swap daemon for POSIX-compliant operating systems.
+# URL: http://www.rkeene.org/files/oss/swapd/
+# Maintainer: Joacim Olsen Tangen, joacimot at gmail dot com
+# Depends on: 
+
+name=swapd
+version=1.0.3
+release=1
+
+source=(http://www.rkeene.org/files/oss/$name/$name-$version.tar.gz rc.swapd)
+
+build () {
+  cd $name-$version
+
+	# Thanks to http://bugs.gentoo.org/attachment.cgi?id=45341
+	sed -e "s/@sbindir@/\\\${DESTDIR}\/@sbindir@/g" -i Makefile.in
+	sed -e "s/@sysconfdir@/\\\${DESTDIR}\/@sysconfdir@/g" -i Makefile.in
+	sed -e "s/@mandir@/\\\${DESTDIR}\/@mandir@/g" -i Makefile.in
+
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+
+	install -Dm755 $SRC/rc.swapd $PKG/etc/rc.d/swapd
+}
