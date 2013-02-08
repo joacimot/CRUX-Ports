@@ -96,5 +96,3 @@ drwxr-xr-x	root/root	usr/share/aclocal/
 drwxr-xr-x	root/root	usr/var/
 drwxr-xr-x	root/root	usr/var/netatalk/
 drwxr-xr-x	root/root	usr/var/netatalk/CNID/
--rw-r--r--	root/root	usr/var/netatalk/CNID/README
--rw-r--r--	root/root	usr/var/netatalk/README
