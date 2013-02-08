@@ -7,10 +7,10 @@ f:e8b198856c2f793ad47c4e78d8e8e7d5:oss/rc.oss
 f:2fee618640f871993067277ebfc19d34:oss/.md5sum
 f:b9a380a0ac8896390d71ac13676f27e1:oss/rm-init-scripts.patch
 f:8b09396efd97ee0977d88c58b02d5bf4:oss/.footprint
-f:27744349850af9e3ed875e3728772297:netatalk/Pkgfile
+f:5b6f222f84850b98b4713251a4bcd2a9:netatalk/Pkgfile
 f:ad3db819edcbc1bd1a47392aaa56de02:netatalk/rc.netatalk
 f:8ecb718292af5435de316df3d06b947d:netatalk/.md5sum
-f:5513cfabe6f578b1475d80e660d1dd98:netatalk/.footprint
+f:19732beb6643c311b5e041587af42de6:netatalk/.footprint
 f:f00f2aeb28a7f86fc3ace8bdceae894e:weechat/Pkgfile
 f:13b436178990c37a8103d5348038f766:weechat/.md5sum
 f:82426951905465fe488642498f535d50:weechat/.footprint
