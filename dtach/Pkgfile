@@ -1,0 +1,18 @@
+# Description: dtach is a tiny program that emulates the detach feature of screen.
+# URL: http://dtach.sourceforge.net/
+# Maintainer: Joacim Olsen Tangen, joacim at joac dot im
+# Depends on: 
+
+name=dtach
+version=0.8
+release=1
+source=(http://download.sourceforge.net/$name/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+    ./configure --prefix=/usr
+    make
+		mkdir -p $PKG/usr/bin/
+		install -D -m 0755 dtach $PKG/usr/bin/
+		install -D -m 0644 dtach.1 $PKG/usr/man/man1/dtach.1
+}

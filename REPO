@@ -1,4 +1,5 @@
 d:oss
+d:dtach
 d:netatalk
 d:weechat
 d:swapd
@@ -7,6 +8,9 @@ f:e8b198856c2f793ad47c4e78d8e8e7d5:oss/rc.oss
 f:2fee618640f871993067277ebfc19d34:oss/.md5sum
 f:b9a380a0ac8896390d71ac13676f27e1:oss/rm-init-scripts.patch
 f:8b09396efd97ee0977d88c58b02d5bf4:oss/.footprint
+f:188f6a514bd615a558317d218e94a40f:dtach/Pkgfile
+f:cd8271f7450c6be85f2ec1052e2ae8ed:dtach/.md5sum
+f:9a5a46c6f660a471443b2c3dbf96921c:dtach/.footprint
 f:5b6f222f84850b98b4713251a4bcd2a9:netatalk/Pkgfile
 f:ad3db819edcbc1bd1a47392aaa56de02:netatalk/rc.netatalk
 f:8ecb718292af5435de316df3d06b947d:netatalk/.md5sum
