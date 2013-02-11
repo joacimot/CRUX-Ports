@@ -1,4 +1,5 @@
 d:oss
+d:mktorrent
 d:dtach
 d:netatalk
 d:weechat
@@ -8,6 +9,9 @@ f:e8b198856c2f793ad47c4e78d8e8e7d5:oss/rc.oss
 f:2fee618640f871993067277ebfc19d34:oss/.md5sum
 f:b9a380a0ac8896390d71ac13676f27e1:oss/rm-init-scripts.patch
 f:8b09396efd97ee0977d88c58b02d5bf4:oss/.footprint
+f:fd4f3281d9653297eadc7e382a1968ee:mktorrent/Pkgfile
+f:e34134299b66656b0d05e2a33134254a:mktorrent/.md5sum
+f:befd092d6baf4ee47a0e8903d9d8ad9b:mktorrent/.footprint
 f:188f6a514bd615a558317d218e94a40f:dtach/Pkgfile
 f:cd8271f7450c6be85f2ec1052e2ae8ed:dtach/.md5sum
 f:9a5a46c6f660a471443b2c3dbf96921c:dtach/.footprint
