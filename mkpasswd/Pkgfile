@@ -1,0 +1,19 @@
+# Description: Random password generator.
+# URL: http://search.cpan.org/dist/String-MkPasswd/
+# Maintainer: Joacim Olsen Tangen, joacim at joac dot im
+# Depends on:
+
+name=mkpasswd
+version=0.04
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/C/CG/CGRAU/String-MkPasswd-$version.tar.gz)
+
+build() {
+    cd String-MkPasswd-$version
+		perl Makefile.PL
+		make
+		make DESTDIR=$PKG install
+
+		rm -rf $PKG/usr/lib/perl5/5.16/
+		rm -rf $PKG/usr/lib/perl5/site_perl/5.16/linux-thread-multi/
+}
