@@ -12,7 +12,7 @@ source=(http://www.weechat.org/files/src/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
-	
+
 	mkdir build
 	cd build
 

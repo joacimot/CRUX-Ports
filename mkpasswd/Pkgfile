@@ -9,11 +9,11 @@ release=1
 source=(http://search.cpan.org/CPAN/authors/id/C/CG/CGRAU/String-MkPasswd-$version.tar.gz)
 
 build() {
-    cd String-MkPasswd-$version
-		perl Makefile.PL
-		make
-		make DESTDIR=$PKG install
+	cd String-MkPasswd-$version
+	perl Makefile.PL
+	make
+	make DESTDIR=$PKG install
 
-		rm -rf $PKG/usr/lib/perl5/5.16/
-		rm -rf $PKG/usr/lib/perl5/site_perl/5.16/linux-thread-multi/
+	rm -rf $PKG/usr/lib/perl5/5.16/
+	rm -rf $PKG/usr/lib/perl5/site_perl/5.16/linux-thread-multi/
 }

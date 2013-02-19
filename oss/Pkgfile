@@ -11,7 +11,7 @@ source=(http://www.4front-tech.com/developer/sources/stable/gpl/$name-v$version-
 
 build() {
 	mkdir build
- 
+
 	cd $name-v$version-src-gpl
 	#sed -i "s|export HAVE_ALSA=1|# export HAVE_ALSA=1|g" configure
 	#sed -i "s|700|755|g" setup/Linux/build.sh
