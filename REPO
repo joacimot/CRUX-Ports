@@ -3,6 +3,7 @@ d:mktorrent
 d:mkpasswd
 d:dtach
 d:netatalk
+d:pngcrush
 d:weechat
 d:swapd
 f:470481bb3e71b375ea1cd2a838bfe891:oss/Pkgfile
@@ -23,6 +24,9 @@ f:8a56d8569f95ad9b84bdf80b6ba8ecc3:netatalk/Pkgfile
 f:ad3db819edcbc1bd1a47392aaa56de02:netatalk/rc.netatalk
 f:8ecb718292af5435de316df3d06b947d:netatalk/.md5sum
 f:19732beb6643c311b5e041587af42de6:netatalk/.footprint
+f:18f66a70691721556697a19623e679da:pngcrush/Pkgfile
+f:09977c6ea317a9e754a4b2a31ed110f0:pngcrush/.md5sum
+f:60bb9b3e87a0374aa2f0eb056927eccc:pngcrush/.footprint
 f:4e63319f43b5df1dacfa29ba7b44163b:weechat/Pkgfile
 f:13b436178990c37a8103d5348038f766:weechat/.md5sum
 f:82426951905465fe488642498f535d50:weechat/.footprint
