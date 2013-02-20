@@ -18,7 +18,9 @@ build() {
 		--with-libevent=no
 	make
 	make DESTDIR=$PKG install
-	install -Dm755 $SRC/rc.netatalk $PKG/etc/rc.d/netatalk
+
+	install -D -m 755 $SRC/rc.netatalk $PKG/etc/rc.d/netatalk
+
 	rm $PKG/usr/var/netatalk/README $PKG/usr/var/netatalk/CNID/README
 	#rm $PKG/usr/include/netatalk/at.h
 }

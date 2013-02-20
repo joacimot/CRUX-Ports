@@ -22,5 +22,5 @@ build () {
 	make
 	make DESTDIR=$PKG install
 
-	install -Dm755 $SRC/rc.swapd $PKG/etc/rc.d/swapd
+	install -D -m 755 $SRC/rc.swapd $PKG/etc/rc.d/swapd
 }

@@ -10,6 +10,7 @@ source=(http://search.cpan.org/CPAN/authors/id/C/CG/CGRAU/String-MkPasswd-$versi
 
 build() {
 	cd String-MkPasswd-$version
+
 	perl Makefile.PL
 	make
 	make DESTDIR=$PKG install

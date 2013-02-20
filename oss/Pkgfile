@@ -25,6 +25,6 @@ build() {
 	make build
 
 	cp -r prototype/{etc,usr} $PKG/
-	install -Dm755 $SRC/rc.oss $PKG/etc/rc.d/oss
+	install -D -m 755 $SRC/rc.oss $PKG/etc/rc.d/oss
 	mv $PKG/usr/share/man $PKG/usr
 }
