@@ -1,9 +1,11 @@
 d:oss
 d:mktorrent
 d:mkpasswd
+d:aspell-nn
 d:dtach
 d:netatalk
 d:pngcrush
+d:aspell-nb
 d:weechat
 d:swapd
 f:470481bb3e71b375ea1cd2a838bfe891:oss/Pkgfile
@@ -17,6 +19,9 @@ f:befd092d6baf4ee47a0e8903d9d8ad9b:mktorrent/.footprint
 f:8725a5a44ac5d5c028e7865a3ca7ba19:mkpasswd/Pkgfile
 f:f1e18de23aaf4b5dde74ca04a5a611ca:mkpasswd/.md5sum
 f:6d487c548ff1af9db22e879d79aeb5b8:mkpasswd/.footprint
+f:a5d0dbfaae98c76e7b227165ad52f844:aspell-nn/Pkgfile
+f:d8f49a6da1d77bcd42cb6f57f1186467:aspell-nn/.md5sum
+f:942f6a3c84c51f190f7ac1180d3d70b3:aspell-nn/.footprint
 f:30afca0d23ad81bb3d3fe0dbbaff9ded:dtach/Pkgfile
 f:cd8271f7450c6be85f2ec1052e2ae8ed:dtach/.md5sum
 f:9a5a46c6f660a471443b2c3dbf96921c:dtach/.footprint
@@ -27,6 +32,9 @@ f:19732beb6643c311b5e041587af42de6:netatalk/.footprint
 f:18f66a70691721556697a19623e679da:pngcrush/Pkgfile
 f:09977c6ea317a9e754a4b2a31ed110f0:pngcrush/.md5sum
 f:60bb9b3e87a0374aa2f0eb056927eccc:pngcrush/.footprint
+f:7a3a90df7185641ae5208309262c9a34:aspell-nb/Pkgfile
+f:a1e7547e040624226884ac9d18b96f47:aspell-nb/.md5sum
+f:d9ace164688e5b452f8c34682a381e98:aspell-nb/.footprint
 f:4e63319f43b5df1dacfa29ba7b44163b:weechat/Pkgfile
 f:13b436178990c37a8103d5348038f766:weechat/.md5sum
 f:82426951905465fe488642498f535d50:weechat/.footprint
