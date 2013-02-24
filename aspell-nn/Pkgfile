@@ -1,0 +1,16 @@
+# Description: Norwegian nynorsk dictionary for aspell
+# URL: http://aspell.net
+# Maintainer: Joacim Olsen Tangen, joacim at joac dot im
+# Depends on: aspell
+
+name=aspell-nn
+version=0.50.1-1
+release=1
+source=(http://ftp.gnu.org/gnu/aspell/dict/nn/$name-$version.tar.bz2)
+
+build () {
+	cd $name-$version
+	./configure
+	make
+	make DESTDIR=$PKG install
+}

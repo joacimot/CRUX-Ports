@@ -1,0 +1,7 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/aspell-0.60/
+-rw-r--r--	root/root	usr/lib/aspell-0.60/nn.dat
+-rw-r--r--	root/root	usr/lib/aspell-0.60/nn.multi
+-rw-r--r--	root/root	usr/lib/aspell-0.60/nn.rws
+-rw-r--r--	root/root	usr/lib/aspell-0.60/nynorsk.alias
