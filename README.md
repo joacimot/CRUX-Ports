@@ -1,9 +1,8 @@
 # CRUX-Ports (https://github.com/joacimot/CRUX-Ports)
 
-Go to my [repository listing] [1] at crux.nu to find individual download
-commands, or you can install [joacim.httpup] [2] to /etc/ports to get all
-of my ports.
-
+Visit [my entry] [1] in the CRUX port browser for individual download
+commands, or install [joacim.httpup] [2] to /etc/ports if you want to
+download the whole ports collection.
 
 ```
 # curl "http://crux.nu/portdb/?a=getup&q=joacim" -o /etc/ports/joacim.httpup
