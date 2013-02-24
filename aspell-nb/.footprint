@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/aspell-0.60/
+-rw-r--r--	root/root	usr/lib/aspell-0.60/bokmal.alias
+-rw-r--r--	root/root	usr/lib/aspell-0.60/bokmål.alias
+-rw-r--r--	root/root	usr/lib/aspell-0.60/nb.dat
+-rw-r--r--	root/root	usr/lib/aspell-0.60/nb.multi
+-rw-r--r--	root/root	usr/lib/aspell-0.60/nb.rws
+-rw-r--r--	root/root	usr/lib/aspell-0.60/no.alias
+-rw-r--r--	root/root	usr/lib/aspell-0.60/norsk.alias

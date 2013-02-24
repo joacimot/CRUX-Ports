@@ -1,0 +1,16 @@
+# Description: Norwegian bokmaal dictionary for aspell
+# URL: http://aspell.net
+# Maintainer: Joacim Olsen Tangen, joacim at joac dot im
+# Depends on: aspell
+
+name=aspell-nb
+version=0.50.1-0
+release=1
+source=(http://ftp.gnu.org/gnu/aspell/dict/nb/$name-$version.tar.bz2)
+
+build () {
+	cd $name-$version
+	./configure
+	make
+	make DESTDIR=$PKG install
+}
