@@ -6,8 +6,8 @@
 
 name=oss
 version=4.2-build2007
-release=1 
-source=(http://www.4front-tech.com/developer/sources/stable/gpl/$name-v$version-src-gpl.tar.bz2 rc.oss rm-init-scripts.patch)
+release=2 
+source=(http://www.4front-tech.com/developer/sources/stable/gpl/$name-v$version-src-gpl.tar.bz2 rc.oss rm-init-scripts.patch linux-3.8.patch)
 
 build() {
 	mkdir build
@@ -15,6 +15,8 @@ build() {
 	cd $name-v$version-src-gpl
 	#sed -i "s|export HAVE_ALSA=1|# export HAVE_ALSA=1|g" configure
 	#sed -i "s|700|755|g" setup/Linux/build.sh
+
+	patch -p0 -i $SRC/linux-3.8.patch
 
 	cd setup/Linux
 	patch --no-backup-if-mismatch -p2 -i $SRC/rm-init-scripts.patch
