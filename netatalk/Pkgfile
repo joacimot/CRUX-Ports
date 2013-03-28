@@ -5,7 +5,7 @@
 # Depends on: db libgcrypt libevent
 
 name=netatalk
-version=3.0.2
+version=3.0.3
 release=1
 source=(http://prdownloads.sourceforge.net/$name/$name-$version.tar.bz2 rc.netatalk)
 
@@ -15,7 +15,8 @@ build() {
 	./configure --prefix=/usr \
 		--mandir=/usr/man \
 		--sysconfdir=/etc \
-		--with-libevent=no
+		--with-libevent=no \
+		--with-dbus-sysconf-dir=/usr/etc/dbus-1/system.d
 	make
 	make DESTDIR=$PKG install
 

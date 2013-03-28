@@ -8,6 +8,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/ad
 -rwxr-xr-x	root/root	usr/bin/afpldaptest
 -rwsr-xr-x	root/root	usr/bin/afppasswd
+-rwxr-xr-x	root/root	usr/bin/afpstats
 -rwxr-xr-x	root/root	usr/bin/apple_dump
 -rwxr-xr-x	root/root	usr/bin/asip-status.pl
 -rwxr-xr-x	root/root	usr/bin/cnid2_create
@@ -15,6 +16,10 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/macusers
 -rwxr-xr-x	root/root	usr/bin/netatalk-config
 -rwxr-xr-x	root/root	usr/bin/uniconv
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/dbus-1/
+drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
+-rw-r--r--	root/root	usr/etc/dbus-1/system.d/netatalk-dbus.conf
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/atalk/
 -rw-r--r--	root/root	usr/include/atalk/acl.h
@@ -42,9 +47,9 @@ drwxr-xr-x	root/root	usr/include/atalk/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libatalk.a
 -rwxr-xr-x	root/root	usr/lib/libatalk.la
-lrwxrwxrwx	root/root	usr/lib/libatalk.so -> libatalk.so.3.0.0
-lrwxrwxrwx	root/root	usr/lib/libatalk.so.3 -> libatalk.so.3.0.0
--rwxr-xr-x	root/root	usr/lib/libatalk.so.3.0.0
+lrwxrwxrwx	root/root	usr/lib/libatalk.so -> libatalk.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libatalk.so.4 -> libatalk.so.4.0.0
+-rwxr-xr-x	root/root	usr/lib/libatalk.so.4.0.0
 drwxr-xr-x	root/root	usr/lib/netatalk/
 lrwxrwxrwx	root/root	usr/lib/netatalk/uams_clrtxt.so -> uams_passwd.so
 lrwxrwxrwx	root/root	usr/lib/netatalk/uams_dhx.so -> uams_dhx_passwd.so
@@ -69,6 +74,7 @@ drwxr-xr-x	root/root	usr/man/man1/
 -rw-r--r--	root/root	usr/man/man1/ad.1.gz
 -rw-r--r--	root/root	usr/man/man1/afpldaptest.1.gz
 -rw-r--r--	root/root	usr/man/man1/afppasswd.1.gz
+-rw-r--r--	root/root	usr/man/man1/afpstats.1.gz
 -rw-r--r--	root/root	usr/man/man1/apple_dump.1.gz
 -rw-r--r--	root/root	usr/man/man1/asip-status.pl.1.gz
 -rw-r--r--	root/root	usr/man/man1/dbd.1.gz
