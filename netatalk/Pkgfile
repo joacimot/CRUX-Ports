@@ -5,7 +5,7 @@
 # Depends on: db libgcrypt libevent
 
 name=netatalk
-version=3.0.3
+version=3.0.4
 release=1
 source=(http://prdownloads.sourceforge.net/$name/$name-$version.tar.bz2 rc.netatalk)
 
@@ -23,5 +23,5 @@ build() {
 	install -D -m 755 $SRC/rc.netatalk $PKG/etc/rc.d/netatalk
 
 	rm $PKG/usr/var/netatalk/README $PKG/usr/var/netatalk/CNID/README
-	#rm $PKG/usr/include/netatalk/at.h
+	rm -rf $PKG/usr/share/doc
 }
