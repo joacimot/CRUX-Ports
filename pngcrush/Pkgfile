@@ -4,7 +4,7 @@
 # Packager: Brett Goulder, predatorfreak at dcaf-security dot org
 
 name=pngcrush
-version=1.7.59
+version=1.7.64
 release=1
 source=(http://dl.sourceforge.net/pmt/$name-$version.tar.xz)
 
