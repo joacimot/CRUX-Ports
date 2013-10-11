@@ -3,10 +3,10 @@
 # Maintainer: Joacim Olsen Tangen, joacim at joac dot im
 # Packager: nogagplz
 # Depends on: libgcrypt, gnutls, cmake
-# Nice to have: perl, lua, python, ruby, guile
+# Nice to have: perl, lua, python, ruby, guile, asciidoc
 
 name=weechat
-version=0.4.1
+version=0.4.2
 release=1
 source=(http://www.weechat.org/files/src/$name-$version.tar.bz2)
 
@@ -16,7 +16,9 @@ build() {
 	mkdir build
 	cd build
 
-	cmake .. -DPREFIX=/usr -DMANDIR=/usr/man -DENABLE_NLS=off
+	cmake .. -DPREFIX=/usr -DENABLE_MAN=on -DMANDIR=/usr/man -DENABLE_NLS=off
 	make
 	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/man/{de,fr,it,ja}/
 }
