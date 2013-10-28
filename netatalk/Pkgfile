@@ -5,7 +5,7 @@
 # Depends on: db libgcrypt libevent
 
 name=netatalk
-version=3.0.5
+version=3.0.6
 release=1
 source=(http://prdownloads.sourceforge.net/$name/$name-$version.tar.bz2 rc.netatalk)
 
