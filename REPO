@@ -8,9 +8,9 @@ d:mktorrent
 d:dtach
 d:aspell-nb
 d:mkpasswd
-f:1e79ff3d4784004a5b66ab9510cac976:swapd/.md5sum
+f:184ada993c5216c438d8a839006e32a3:swapd/.md5sum
 f:bcf80853be848329d77ddd500789f228:swapd/.footprint
-f:6a5a7212e6d39d307a6d4218447648c6:swapd/Pkgfile
+f:3b5ee7ac1fe5201b1c185362419b6b9d:swapd/Pkgfile
 f:fe0f57fedf5383c09730dfd0328649a8:swapd/rc.swapd
 f:8c4d61702404a059979bb63d0b5f2983:netatalk/.md5sum
 f:ad3db819edcbc1bd1a47392aaa56de02:netatalk/rc.netatalk
