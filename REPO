@@ -12,10 +12,10 @@ f:184ada993c5216c438d8a839006e32a3:swapd/.md5sum
 f:bcf80853be848329d77ddd500789f228:swapd/.footprint
 f:3b5ee7ac1fe5201b1c185362419b6b9d:swapd/Pkgfile
 f:fe0f57fedf5383c09730dfd0328649a8:swapd/rc.swapd
-f:8c4d61702404a059979bb63d0b5f2983:netatalk/.md5sum
+f:ac31a0cc818932dd0a83100720b073db:netatalk/.md5sum
 f:ad3db819edcbc1bd1a47392aaa56de02:netatalk/rc.netatalk
 f:45e8f706e7a7b9d25b6d9f87140e6848:netatalk/.footprint
-f:bc4ce5f6c3751ce188edee65d44aef0f:netatalk/Pkgfile
+f:a30470d896f5a9268dd5a7c0cf2f3e8d:netatalk/Pkgfile
 f:d8f49a6da1d77bcd42cb6f57f1186467:aspell-nn/.md5sum
 f:942f6a3c84c51f190f7ac1180d3d70b3:aspell-nn/.footprint
 f:a5d0dbfaae98c76e7b227165ad52f844:aspell-nn/Pkgfile
