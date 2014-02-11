@@ -6,8 +6,8 @@
 # Nice to have: perl, lua, python, ruby, guile, asciidoc
 
 name=weechat
-version=0.4.2
-release=2
+version=0.4.3
+release=1
 source=(http://www.weechat.org/files/src/$name-$version.tar.bz2)
 
 build() {
