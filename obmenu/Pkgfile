@@ -1,0 +1,15 @@
+# Description: A menu editor designed for openbox.
+# URL: http://obmenu.sourceforge.net/
+# Maintainer: Joacim Olsen Tangen, joacimot at gmail dot com
+# Depends on: python, pygtk
+
+name=obmenu
+version=1.0
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	python setup.py install --root=$PKG --prefix=/usr
+}
+
