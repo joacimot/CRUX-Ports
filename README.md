@@ -1,4 +1,4 @@
-# CRUX-Ports (https://github.com/joacimot/CRUX-Ports)
+# CRUX-Ports
 
 Visit [my entry] [1] in the CRUX port browser for individual download
 commands. Install [the sync file] [2] to /etc/ports if you want to
