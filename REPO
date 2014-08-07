@@ -1,5 +1,6 @@
 d:swapd
 d:netatalk
+d:inxi
 d:aspell-nn
 d:pngcrush
 d:transmission-remote-cli
@@ -17,6 +18,9 @@ f:f18a14fdc98c4107f83b6ccc0cdf7d0d:netatalk/.md5sum
 f:ad3db819edcbc1bd1a47392aaa56de02:netatalk/rc.netatalk
 f:45e8f706e7a7b9d25b6d9f87140e6848:netatalk/.footprint
 f:d1638def20a206c07ac3090f73bb53ba:netatalk/Pkgfile
+f:25eff3da3d82875f0d141aa86e7b282a:inxi/.md5sum
+f:bd58c39f976354147bd5881e49dc0e1b:inxi/.footprint
+f:6bcf196aff1ae4baa9c19f86ec606860:inxi/Pkgfile
 f:d8f49a6da1d77bcd42cb6f57f1186467:aspell-nn/.md5sum
 f:942f6a3c84c51f190f7ac1180d3d70b3:aspell-nn/.footprint
 f:a5d0dbfaae98c76e7b227165ad52f844:aspell-nn/Pkgfile
