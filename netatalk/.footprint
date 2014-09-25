@@ -1,5 +1,6 @@
 drwxr-xr-x	root/root	etc/
 -rw-r--r--	root/root	etc/afp.conf
+-rw-r--r--	root/root	etc/dbus-session.conf
 -rw-r--r--	root/root	etc/extmap.conf
 drwxr-xr-x	root/root	etc/rc.d/
 -rwxr-xr-x	root/root	etc/rc.d/netatalk
@@ -15,11 +16,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/dbd
 -rwxr-xr-x	root/root	usr/bin/macusers
 -rwxr-xr-x	root/root	usr/bin/netatalk-config
--rwxr-xr-x	root/root	usr/bin/uniconv
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/dbus-1/
-drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
--rw-r--r--	root/root	usr/etc/dbus-1/system.d/netatalk-dbus.conf
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/atalk/
 -rw-r--r--	root/root	usr/include/atalk/acl.h
@@ -47,9 +43,9 @@ drwxr-xr-x	root/root	usr/include/atalk/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libatalk.a
 -rwxr-xr-x	root/root	usr/lib/libatalk.la
-lrwxrwxrwx	root/root	usr/lib/libatalk.so -> libatalk.so.7.0.0
-lrwxrwxrwx	root/root	usr/lib/libatalk.so.7 -> libatalk.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libatalk.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libatalk.so -> libatalk.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libatalk.so.16 -> libatalk.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libatalk.so.16.0.0
 drwxr-xr-x	root/root	usr/lib/netatalk/
 lrwxrwxrwx	root/root	usr/lib/netatalk/uams_clrtxt.so -> uams_passwd.so
 lrwxrwxrwx	root/root	usr/lib/netatalk/uams_dhx.so -> uams_dhx_passwd.so
