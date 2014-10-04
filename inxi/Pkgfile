@@ -5,7 +5,7 @@
 # Nice to have: xorg-xprop, xorg-xdpyinfo, xorg-xrandr, mesa-demos, hddtemp, lm_sensors
 
 name=inxi
-version=r2563
+version=r2575
 release=1
 source=(https://inxi.googlecode.com/svn-history/$version/trunk/$name.tar.gz)
 
