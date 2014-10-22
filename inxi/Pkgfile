@@ -5,9 +5,9 @@
 # Nice to have: xorg-xprop, xorg-xdpyinfo, xorg-xrandr, mesa-demos, hddtemp, lm_sensors
 
 name=inxi
-version=r2575
+version=2.2.14
 release=1
-source=(https://inxi.googlecode.com/svn-history/$version/trunk/$name.tar.gz)
+source=(https://inxi.googlecode.com/svn/tarballs/${name}_${version}.tar.gz)
 
 build() {
 	install -D -m 755 inxi $PKG/usr/bin/inxi
