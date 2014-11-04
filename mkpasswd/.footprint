@@ -4,9 +4,9 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/perl5/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/
-drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.16/
-drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.16/String/
--r--r--r--	root/root	usr/lib/perl5/site_perl/5.16/String/MkPasswd.pm
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.18/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.18/String/
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.18/String/MkPasswd.pm
 drwxr-xr-x	root/root	usr/man/
 drwxr-xr-x	root/root	usr/man/man1/
 -r--r--r--	root/root	usr/man/man1/mkpasswd.pl.1pm.gz
