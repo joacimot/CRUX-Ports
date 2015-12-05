@@ -3,10 +3,11 @@ drwxr-xr-x	root/root	etc/rc.d/
 -rwxr-xr-x	root/root	etc/rc.d/swapd
 -rw-r--r--	root/root	etc/swapd.conf
 drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/man/
-drwxr-xr-x	root/root	usr/man/man5/
--rw-r--r--	root/root	usr/man/man5/swapd.conf.5.gz
-drwxr-xr-x	root/root	usr/man/man8/
--rw-r--r--	root/root	usr/man/man8/swapd.8.gz
 drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/swapd
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man5/
+-rw-r--r--	root/root	usr/share/man/man5/swapd.conf.5.gz
+drwxr-xr-x	root/root	usr/share/man/man8/
+-rw-r--r--	root/root	usr/share/man/man8/swapd.8.gz

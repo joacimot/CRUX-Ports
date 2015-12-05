@@ -13,7 +13,7 @@ build() {
 	cd $name-$version
 
 	./configure --prefix=/usr \
-		--mandir=/usr/man \
+		--mandir=/usr/share/man \
 		--sysconfdir=/etc \
 		--with-libevent=no \
 		--with-dbus-sysconf-dir=/usr/etc/dbus-1/system.d
