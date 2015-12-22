@@ -13,8 +13,6 @@ source=(http://www.weechat.org/files/src/$name-$version.tar.bz2)
 build() {
 	cd $name-$version
 
-	sed -i 's/<ncursesw\/term.h>/<term.h>/g' src/gui/curses/gui-curses-term.c
-
 	mkdir build
 	cd build
 
@@ -23,7 +21,7 @@ build() {
 		-DMANDIR=/usr/share/man \
 		-DENABLE_NLS=off \
 		-DCA_FILE=/etc/ssl/cert.pem
-	make VERBOSE=1
+	make
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/man/{de,fr,it,ja}/
