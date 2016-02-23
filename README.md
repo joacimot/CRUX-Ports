@@ -5,7 +5,7 @@ browser. Install [the sync file] [2] to /etc/ports if you wish to download
 the entire collection.
 
 ```
-# curl "http://crux.nu/portdb/?a=getup&q=joacim" -o /etc/ports/joacim.httpup
+# curl "https://crux.nu/portdb/?a=getup&q=joacim" -o /etc/ports/joacim.httpup
 # ports -u joacim
 ```
 
