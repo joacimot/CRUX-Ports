@@ -4,6 +4,7 @@ d:mktorrent
 d:pngcrush
 d:inxi
 d:obmenu
+d:autocutsel
 d:netatalk
 d:weechat
 d:dtach
@@ -29,6 +30,9 @@ f:ee7ac558ef8d528b9dffb04c1cceef77:inxi/.footprint
 f:7fef4f79280dce5abc86a2372b2f3237:obmenu/Pkgfile
 f:e562669d510f5505b2cdf26048cdb648:obmenu/.md5sum
 f:caf6bbbf16648b8008fedab2dc205725:obmenu/.footprint
+f:d2c061b9f94f8de24caaf7989a9cec3e:autocutsel/Pkgfile
+f:347b6bfa771418c3e18544b63717afbf:autocutsel/.md5sum
+f:959de44f966d43f1b006997e9fa10ae7:autocutsel/.footprint
 f:f4b9672313c96b66e45ae118428ec087:netatalk/Pkgfile
 f:5bb70f22c871e3eb8b00806c07fb1c9d:netatalk/.md5sum
 f:a631a71b088271f2790ed4a26d9fb905:netatalk/.footprint

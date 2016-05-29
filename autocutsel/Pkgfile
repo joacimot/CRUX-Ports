@@ -1,0 +1,17 @@
+# Description: autocutsel syncronises the cutbuffer and clipboard
+# URL: http://www.nongnu.org/autocutsel/
+# Maintainer: Joacim Olsen Tangen, joacim at joac dot im
+# Depends on: xorg-libxaw
+
+name=autocutsel
+version=0.10.0
+release=1
+source=(https://github.com/sigmike/autocutsel/releases/download/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
