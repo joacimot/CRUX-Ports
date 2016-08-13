@@ -1,2 +1,3 @@
-831ec8bf9e084b64f965d16c528af299  netatalk-3.1.7.tar.bz2
+f1ff208db3e4e56a9f685ef0554264e8  2nd-0001-afpd-cannot-build-when-ldap-is-not-defined.patch
+d1d385ae6c3dc45eef4c923472f8fa5f  netatalk-3.1.9.tar.bz2
 ad3db819edcbc1bd1a47392aaa56de02  rc.netatalk
