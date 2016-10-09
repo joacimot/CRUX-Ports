@@ -38,8 +38,8 @@ f:f1ff208db3e4e56a9f685ef0554264e8:netatalk/2nd-0001-afpd-cannot-build-when-ldap
 f:872dbe43072913843c51e32c367679e0:netatalk/.md5sum
 f:a078d0251a95c018c4b90119224b411c:netatalk/.footprint
 f:ad3db819edcbc1bd1a47392aaa56de02:netatalk/rc.netatalk
-f:1790f3c00ab6d7a3758c397ff51d0ec7:weechat/Pkgfile
-f:e2892f4399cd3361c55dd224d2efab71:weechat/.md5sum
+f:c8d7a5c8bbbe8e450d300eca400c378d:weechat/Pkgfile
+f:29578ffbbf38a69ff93ad0eb3fbdb79f:weechat/.md5sum
 f:390f36c470b528c4c4cff478ba094b55:weechat/.footprint
 f:aee327c177b7b5d30df1fb9aad08e8a7:dtach/Pkgfile
 f:cd8271f7450c6be85f2ec1052e2ae8ed:dtach/.md5sum
