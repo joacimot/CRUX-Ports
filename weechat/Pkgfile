@@ -6,9 +6,9 @@
 # Nice to have: perl, lua, python, ruby, asciidoc
 
 name=weechat
-version=1.6
+version=1.7
 release=1
-source=(http://www.weechat.org/files/src/$name-$version.tar.bz2)
+source=(http://www.weechat.org/files/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
