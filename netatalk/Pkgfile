@@ -5,14 +5,12 @@
 # Depends on: db libgcrypt libevent
 
 name=netatalk
-version=3.1.9
+version=3.1.10
 release=1
-source=(http://prdownloads.sourceforge.net/$name/$name-$version.tar.bz2 rc.netatalk 2nd-0001-afpd-cannot-build-when-ldap-is-not-defined.patch)
+source=(http://prdownloads.sourceforge.net/$name/$name-$version.tar.bz2 rc.netatalk)
 
 build() {
 	cd $name-$version
-
-	patch -p 1 -i $SRC/2nd-0001-afpd-cannot-build-when-ldap-is-not-defined.patch
 
 	./configure --prefix=/usr \
 		--mandir=/usr/share/man \

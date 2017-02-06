@@ -5,12 +5,12 @@ d:dtach
 d:inxi
 d:mkpasswd
 d:mktorrent
-d:netatalk
 d:obmenu
 d:pngcrush
 d:swapd
 d:transmission-remote-cli
 d:weechat
+d:netatalk
 f:d9ace164688e5b452f8c34682a381e98:aspell-nb/.footprint
 f:a1e7547e040624226884ac9d18b96f47:aspell-nb/.md5sum
 f:7a3a90df7185641ae5208309262c9a34:aspell-nb/Pkgfile
@@ -32,11 +32,6 @@ f:053f45e7bab885c04b2f9658d51a6261:mkpasswd/Pkgfile
 f:befd092d6baf4ee47a0e8903d9d8ad9b:mktorrent/.footprint
 f:e34134299b66656b0d05e2a33134254a:mktorrent/.md5sum
 f:fd4f3281d9653297eadc7e382a1968ee:mktorrent/Pkgfile
-f:a078d0251a95c018c4b90119224b411c:netatalk/.footprint
-f:872dbe43072913843c51e32c367679e0:netatalk/.md5sum
-f:f1ff208db3e4e56a9f685ef0554264e8:netatalk/2nd-0001-afpd-cannot-build-when-ldap-is-not-defined.patch
-f:63f9197aa690a783c83c33313901efbe:netatalk/Pkgfile
-f:ad3db819edcbc1bd1a47392aaa56de02:netatalk/rc.netatalk
 f:caf6bbbf16648b8008fedab2dc205725:obmenu/.footprint
 f:e562669d510f5505b2cdf26048cdb648:obmenu/.md5sum
 f:7fef4f79280dce5abc86a2372b2f3237:obmenu/Pkgfile
@@ -53,3 +48,7 @@ f:68a546debb0cfa770853870611d1a176:transmission-remote-cli/Pkgfile
 f:390f36c470b528c4c4cff478ba094b55:weechat/.footprint
 f:560c2b18f2780a0b0104b6d5778d17d4:weechat/.md5sum
 f:f838c81920b67fcf51f58727520dd6df:weechat/Pkgfile
+f:baabf08efcc4db53802c1cdd99d9ba23:netatalk/.md5sum
+f:ad3db819edcbc1bd1a47392aaa56de02:netatalk/rc.netatalk
+f:1462630f02e278662fce9850f471c650:netatalk/.footprint
+f:7b5c8671110e7ec167cd51d966d79cdd:netatalk/Pkgfile

@@ -43,9 +43,9 @@ drwxr-xr-x	root/root	usr/include/atalk/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libatalk.a
 -rwxr-xr-x	root/root	usr/lib/libatalk.la
-lrwxrwxrwx	root/root	usr/lib/libatalk.so -> libatalk.so.17.0.0
-lrwxrwxrwx	root/root	usr/lib/libatalk.so.17 -> libatalk.so.17.0.0
--rwxr-xr-x	root/root	usr/lib/libatalk.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libatalk.so -> libatalk.so.18.0.0
+lrwxrwxrwx	root/root	usr/lib/libatalk.so.18 -> libatalk.so.18.0.0
+-rwxr-xr-x	root/root	usr/lib/libatalk.so.18.0.0
 drwxr-xr-x	root/root	usr/lib/netatalk/
 lrwxrwxrwx	root/root	usr/lib/netatalk/uams_clrtxt.so -> uams_passwd.so
 lrwxrwxrwx	root/root	usr/lib/netatalk/uams_dhx.so -> uams_dhx_passwd.so
