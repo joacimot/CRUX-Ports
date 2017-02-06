@@ -15,6 +15,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	rm -rf $PKG/usr/lib/perl5/5.18/
-	rm -rf $PKG/usr/lib/perl5/site_perl/5.18/linux-thread-multi/
+	rm -rf $PKG/usr/lib/perl5/5.22/
+	rm -rf $PKG/usr/lib/perl5/site_perl/5.22/linux-thread-multi/
 }
