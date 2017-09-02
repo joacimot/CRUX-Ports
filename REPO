@@ -24,8 +24,8 @@ f:5427a97b6b9c1f358298e2d204d9a4dc:dtach/.footprint
 f:f3aca1cda7b0b3eb659ed6c82f41580d:dtach/.md5sum
 f:709ef47009e9f29303c6a6dabb72322a:dtach/Pkgfile
 f:ee7ac558ef8d528b9dffb04c1cceef77:inxi/.footprint
-f:9916adc9f8b0ad1cba46cfb08a2dec84:inxi/.md5sum
-f:715066d09339a3dc0c92f78c86c9de8b:inxi/Pkgfile
+f:650bd82a3a7b010827a0964bdccfa96e:inxi/.md5sum
+f:042dc20d39c6c02b3001e95f2738fabc:inxi/Pkgfile
 f:941cb0f503ac9a6cb0c7114a3ff84d36:mkpasswd/.footprint
 f:a1e250a925b8d90847b685e2409f336a:mkpasswd/.md5sum
 f:69c8be85c964a8053e9ab2203beec2f0:mkpasswd/Pkgfile
