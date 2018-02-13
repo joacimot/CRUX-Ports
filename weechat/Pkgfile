@@ -5,7 +5,7 @@
 # Nice to have: perl, lua, python, ruby, asciidoc
 
 name=weechat
-version=2.0
+version=2.0.1
 release=1
 source=(http://www.weechat.org/files/src/$name-$version.tar.xz)
 
