@@ -1,15 +1,14 @@
 # Description: BitTorrent metainfo file generator
-# URL: http://mktorrent.sf.net/
+# URL: https://github.com/Rudde/mktorrent
 # Maintainer: Joacim Olsen Tangen, joacim at joac dot im
-# Packager: Antti Nykanen, aon at iki dot fi
 # Depends on:
 
 name=mktorrent
-version=1.0
+version=1.1
 release=1
-source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.gz)
+source=(https://github.com/Rudde/$name/archive/v$version/$name-v$version.tar.gz)
 
 build() {
-	cd mktorrent-$version
-	make DESTDIR=$PKG PREFIX=/usr USE_PTHREADS=1 USE_LONG_OPTIONS=1 USE_OPENSSL=1 install
+	cd $name-$version
+	make DESTDIR=$PKG PREFIX=/usr USE_PTHREADS=1 USE_LONG_OPTIONS=1 USE_LARGE_FILES=1 USE_OPENSSL=1 install
 }
