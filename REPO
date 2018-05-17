@@ -11,6 +11,7 @@ d:pngcrush
 d:swapd
 d:transmission-remote-cli
 d:weechat
+d:quakespasm
 f:d9ace164688e5b452f8c34682a381e98:aspell-nb/.footprint
 f:a1e7547e040624226884ac9d18b96f47:aspell-nb/.md5sum
 f:7a3a90df7185641ae5208309262c9a34:aspell-nb/Pkgfile
@@ -52,3 +53,7 @@ f:ed644e2d81a2b8371c691d84b8b28537:transmission-remote-cli/Pkgfile
 f:08d23a822df40da28f1adaf1d9a507cf:weechat/.footprint
 f:bb8bcce3423da1b57c050ec94c21ff1d:weechat/.md5sum
 f:c40cb7dfac651d943e1581a897fa1527:weechat/Pkgfile
+f:d3c299452c0e87f63f2ef3e94bdad9d4:quakespasm/.md5sum
+f:09f53ea9c6d669b19cd58b6acc9bdea5:quakespasm/.footprint
+f:853c72af76f131a66f66882367a16e23:quakespasm/Pkgfile
+f:5cc205a9d1d5ed67ae5eb4016c55121d:quakespasm/README

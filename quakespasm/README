@@ -1,0 +1,8 @@
+To play Quake with this port, you must copy the files 'config.cfg',
+'pak0.pak'. and 'pak1.pak' to ~/.quakespasm/id1/
+
+Make sure the filenames are all in lower case.
+
+If you want music, copy the music in either mp3 or ogg/vorbis format to
+~/.quakespasm/id1/music with the filenames track02.ogg through track11.ogg.
+

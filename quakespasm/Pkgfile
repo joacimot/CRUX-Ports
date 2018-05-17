@@ -1,0 +1,17 @@
+# Description: A modern engine for Quake.
+# URL: http://quakespasm.sourceforge.net/
+# Maintainer: Joacim Olsen Tangen, joacim at joac dot im
+# Depends on: libsdl2 libvorbis libmad
+
+name=quakespasm
+version=0.93.0
+release=1
+source=(https://download.sourceforge.net/$name/$name-$version.tgz)
+
+build() {
+	cd $name-$version/Quake
+
+	make DO_USERDIRS=1 USE_SDL2=1
+
+	install -D -m 755 quakespasm $PKG/usr/bin/$name
+}
