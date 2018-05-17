@@ -1,5 +1,5 @@
 To play Quake with this port, you must copy the files 'config.cfg',
-'pak0.pak'. and 'pak1.pak' to ~/.quakespasm/id1/
+'pak0.pak', and 'pak1.pak' to ~/.quakespasm/id1/
 
 Make sure the filenames are all in lower case.
 
