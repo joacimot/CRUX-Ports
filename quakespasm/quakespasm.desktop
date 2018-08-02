@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Quakespasm
+Coment=Source port of Quake
+Exec=quakespasm
+Icon=/usr/share/pixmaps/quakespasm.png
+Type=Application
+Categories=Game;
+Terminal=false
+StartupNotify=true

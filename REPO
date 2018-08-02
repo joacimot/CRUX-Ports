@@ -53,7 +53,9 @@ f:ed644e2d81a2b8371c691d84b8b28537:transmission-remote-cli/Pkgfile
 f:08d23a822df40da28f1adaf1d9a507cf:weechat/.footprint
 f:bb8bcce3423da1b57c050ec94c21ff1d:weechat/.md5sum
 f:c40cb7dfac651d943e1581a897fa1527:weechat/Pkgfile
-f:d3c299452c0e87f63f2ef3e94bdad9d4:quakespasm/.md5sum
-f:09f53ea9c6d669b19cd58b6acc9bdea5:quakespasm/.footprint
-f:853c72af76f131a66f66882367a16e23:quakespasm/Pkgfile
-f:53d4fa465522a1e11bd50831ebaabc2b:quakespasm/README
+f:13db39ae63b0f48fe0691490343b0dc7:quakespasm/.md5sum
+f:be35a00775dfbdc195bb6b6ea10f8401:quakespasm/.footprint
+f:d37a5df711f46be1b4125bb90793889e:quakespasm/Pkgfile
+f:2b499de5d97854640a1ad255b0eecb0c:quakespasm/README
+f:0e886648b4dcbd98bec6cec5aa18b871:quakespasm/quakespasm.sh
+f:d8e1468e3055e5ba69ce9360a19c2707:quakespasm/quakespasm.desktop

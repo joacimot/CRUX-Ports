@@ -6,12 +6,17 @@
 name=quakespasm
 version=0.93.0
 release=1
-source=(https://download.sourceforge.net/$name/$name-$version.tgz)
+source=(https://download.sourceforge.net/$name/$name-$version.tgz $name.sh $name.desktop)
 
 build() {
-	cd $name-$version/Quake
+	cd $name-$version
 
-	make DO_USERDIRS=1 USE_SDL2=1
+	make DO_USERDIRS=1 USE_SDL2=1 -C Quake
 
-	install -D -m 755 quakespasm $PKG/usr/bin/$name
+	install -D -m 755 $SRC/$name.sh $PKG/usr/bin/$name
+	install -D -m 755 Quake/$name $PKG/usr/share/games/$name/$name
+	install -D -m 644 Quake/$name.pak $PKG/usr/share/games/$name/$name.pak
+
+	install -D -m 644 Misc/QuakeSpasm_512.png $PKG/usr/share/pixmaps/$name.png
+	install -D -m 644 $SRC/$name.desktop $PKG/usr/share/applications/$name.desktop
 }

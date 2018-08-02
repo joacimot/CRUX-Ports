@@ -1,3 +1,12 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/quakespasm
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/quakespasm.desktop
+drwxr-xr-x	root/root	usr/share/games/
+drwxr-xr-x	root/root	usr/share/games/quakespasm/
+-rwxr-xr-x	root/root	usr/share/games/quakespasm/quakespasm
+-rw-r--r--	root/root	usr/share/games/quakespasm/quakespasm.pak
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/quakespasm.png
