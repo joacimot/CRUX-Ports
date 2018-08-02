@@ -1,0 +1,41 @@
+# Description: An alternative and improved client for id Softwares Quake II.
+# URL: http://yamagi.org/quake2/
+# Maintainer: Joacim Olsen Tangen, hi at joac dot im
+# Depends on: mesa3d libsdl2 openal libogg
+
+name=yamagi-quake2
+version=7.20
+release=1
+source=(https://deponie.yamagi.org/quake2/quake2-$version.tar.xz https://deponie.yamagi.org/quake2/idstuff/q2-3.20-x86-full-ctf.exe yquake2.sh $name.desktop)
+
+build() {
+	unzip -q -d $SRC/ctf-patch q2-3.20-x86-full-ctf.exe
+
+	cd quake2-$version
+
+	mkdir build
+	cd build
+
+	cmake .. -DCMAKE_BUILD_TYPE=Release \
+		-DSYSTEMWIDE_SUPPORT=ON \
+		-DSYSTEMDIR=/usr/share/games/quake2
+	make
+
+	install -D -m 755 release/quake2 $PKG/usr/share/games/$name/quake2
+	install -D -m 755 release/q2ded $PKG/usr/share/games/$name/q2ded
+
+	install -m 644 release/*.so $PKG/usr/share/games/$name/
+	install -D -m 644 release/baseq2/game.so $PKG/usr/share/games/$name/baseq2/game.so
+
+	install -m 644 $SRC/ctf-patch/baseq2/*.pak $PKG/usr/share/games/$name/baseq2/
+	cp -r $SRC/ctf-patch/baseq2/players $PKG/usr/share/games/$name/baseq2/players
+	install -D -m 644 $SRC/ctf-patch/ctf/pak0.pak $PKG/usr/share/games/$name/ctf/pak0.pak
+
+	install -D -m 755 $SRC/yquake2.sh $PKG/usr/bin/yquake2
+
+	install -D -m 644 ../stuff/icon/Quake2.png $PKG/usr/share/pixmaps/$name.png
+	install -D -m 644 $SRC/$name.desktop $PKG/usr/share/applications/$name.desktop
+
+	# systemdir for game assets
+	install -d m 755 $PKG/usr/share/games/quake2/baseq2
+}

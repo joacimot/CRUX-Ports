@@ -1,0 +1,9 @@
+To play Quake 2 with this port, you must copy the file 'pak0.pak' and
+the folder 'video' from your Quake 2 distribution (CD, Steam) to
+/usr/share/games/quake2/baseq2/
+
+If you don't want the game assets to be available system wide, you can
+copy the files to ~/.yq2/baseq2/ instead.
+
+Make sure the filenames are all in lower case.
+

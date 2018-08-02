@@ -12,6 +12,7 @@ d:swapd
 d:transmission-remote-cli
 d:weechat
 d:quakespasm
+d:yamagi-quake2
 f:d9ace164688e5b452f8c34682a381e98:aspell-nb/.footprint
 f:a1e7547e040624226884ac9d18b96f47:aspell-nb/.md5sum
 f:7a3a90df7185641ae5208309262c9a34:aspell-nb/Pkgfile
@@ -59,3 +60,9 @@ f:d37a5df711f46be1b4125bb90793889e:quakespasm/Pkgfile
 f:2b499de5d97854640a1ad255b0eecb0c:quakespasm/README
 f:0e886648b4dcbd98bec6cec5aa18b871:quakespasm/quakespasm.sh
 f:d8e1468e3055e5ba69ce9360a19c2707:quakespasm/quakespasm.desktop
+f:c1e9e4a6a0d51856df5542cce621b69d:yamagi-quake2/.md5sum
+f:1d8ce0e5e5706a73893a6968ce60a37e:yamagi-quake2/yquake2.sh
+f:5db58cd0adf6c688e12c8fea1647ce88:yamagi-quake2/.footprint
+f:66798aea70536959b655456924130c81:yamagi-quake2/Pkgfile
+f:51c53a38d5839aadccceb1e591a3752c:yamagi-quake2/yamagi-quake2.desktop
+f:fb1c0df5eec09cd450c961d7a91e7989:yamagi-quake2/README

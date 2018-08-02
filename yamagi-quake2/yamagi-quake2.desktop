@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Yamagi Quake 2
+Coment=Source port of Quake 2
+Exec=yquake2
+Icon=/usr/share/pixmaps/yamagi-quake2.png
+Type=Application
+Categories=Game;
+Terminal=false
+StartupNotify=true
