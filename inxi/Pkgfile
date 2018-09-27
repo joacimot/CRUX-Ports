@@ -5,11 +5,13 @@
 # Nice to have: xorg-xprop, xorg-xdpyinfo, xorg-xrandr, mesa-demos, hddtemp, lm_sensors
 
 name=inxi
-version=2.3.56
+version=3.0.25-1
 release=1
-source=(https://github.com/smxi/inxi/raw/a787c3ab897c805e0bbcb16edde8e093bf9b97f2/inxi.tar.gz)
+source=(https://github.com/smxi/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
+	cd $name-$version
+
 	install -D -m 755 inxi $PKG/usr/bin/inxi
 	install -D -m 644 inxi.1 $PKG/usr/share/man/man1/inxi.1
 }
