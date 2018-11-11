@@ -9,5 +9,5 @@ the entire repository.
 # ports -u joacim
 ```
 
-[1]: http://crux.nu/portdb/?a=repo&q=joacim
-[2]: http://crux.nu/portdb/?a=getup&q=joacim
+[1]: http://crux.nu/portdb/?a=repo&q=joacim "CRUX portdb"
+[2]: http://crux.nu/portdb/?a=getup&q=joacim "joacim.httpup sync file"
