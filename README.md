@@ -10,4 +10,4 @@ the entire repository.
 ```
 
 [1]: http://crux.nu/portdb/?a=repo&q=joacim "CRUX portdb"
-[2]: http://crux.nu/portdb/?a=getup&q=joacim "joacim.httpup sync file"
+[2]: http://crux.nu/portdb/?a=getup&q=joacim "joacim.httpup"
