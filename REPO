@@ -7,7 +7,6 @@ d:mkpasswd
 d:mktorrent
 d:netatalk
 d:obmenu
-d:pngcrush
 d:swapd
 d:transmission-remote-cli
 d:weechat
@@ -41,9 +40,6 @@ f:ad3db819edcbc1bd1a47392aaa56de02:netatalk/rc.netatalk
 f:caf6bbbf16648b8008fedab2dc205725:obmenu/.footprint
 f:e562669d510f5505b2cdf26048cdb648:obmenu/.md5sum
 f:7fef4f79280dce5abc86a2372b2f3237:obmenu/Pkgfile
-f:60bb9b3e87a0374aa2f0eb056927eccc:pngcrush/.footprint
-f:9a360c6dddfabedcba913d3cb9966da6:pngcrush/.md5sum
-f:5a0716663fbdf3a62647f67980136da2:pngcrush/Pkgfile
 f:6aa36acd73ca1936bb668fe1f61c5654:swapd/.footprint
 f:ca8e033c8a750cf116f3b19b71ecdb21:swapd/.md5sum
 f:8ca5e805431913b4a7837f6958727ab2:swapd/Pkgfile
