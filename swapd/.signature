@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/joacim.pub
+RWSuLkDXHdtCNmjwuDhOENp+SRLOQQq34fB01YviRBWs/Uj40IRTycpGxgcxxjdUnpapWq7tM/iwawalD2GAhyCw2FthCRYJqwQ=
+SHA256 (Pkgfile) = 014312232103e9f886ed20bab74e33a9a9ebf5dccbecced397c78030cfa7322e
+SHA256 (.footprint) = 2c2f53460b5e7a2d9d8d8ba9e72a8753dd1dc31b53e95bb6d36d65541f946e49
+SHA256 (swapd-1.0.5.tar.gz) = a9c25251ad4b1eb163266cd44969975db5a872be68cf7bca66367d43875ccbc6
+SHA256 (rc.swapd) = f67471d36e1d2901c76c9a2564d718d8365df8be2818920b793871f944b8fc76

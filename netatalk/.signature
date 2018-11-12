@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/joacim.pub
+RWSuLkDXHdtCNvwnddItwGhvBvTqHVAF4BB6iFCYqHK5ZL4H8MiNPGKfNb1A72hZ0icTLYMuiUUb6u77/BwX2NOHX5rN/w0KMg4=
+SHA256 (Pkgfile) = 8e8d64306f880b985f2ec900edda2d45a5ba22bf7ff8f842c35a13fb44c31a37
+SHA256 (.footprint) = 98da0e34bd626153ab2d6192db1cd1546810c35ec2ac298a40b7a3bfa1607ccc
+SHA256 (netatalk-3.1.11.tar.bz2) = 3434472ba96d3bbe3b024274438daad83b784ced720f7662a4c1d0a1078799a6
+SHA256 (rc.netatalk) = 8900e96dc05ff98d60f81c4cfef93fc88c2bd429f8e68d201a97d9f63bef7e55

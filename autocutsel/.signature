@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/joacim.pub
+RWSuLkDXHdtCNkSfD7g77/e5hp0mlbLF1RPEr2LhDoj6f5g2hL00AndWCaFFe2G2cqdMq0GYuyU9P/E+ui4nUOvDykbwdvJaqAw=
+SHA256 (Pkgfile) = 6fb70bcc0107ff9ad5c2096828a8defd80c17b1a057dcb5a21b512151adc5bfd
+SHA256 (.footprint) = e2fa977ac8700d411263cf969d5652ce18fa06f859f9ee6bf7321e9b07d899b5
+SHA256 (autocutsel-0.10.0.tar.gz) = a2376330aa1a65f36621595a5a4eb5c2cabc16854b69d66c285f11f89bd05e3f

@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/joacim.pub
+RWSuLkDXHdtCNq5M2SLI1UVuKpd1s1Q612n/azG/tkF9ZimN5qOFCiHENb+iKv9pHZZxhFKEnD3q6GB6Yl0jjh9Kc0JpKjG2yQE=
+SHA256 (Pkgfile) = c8757d1eb5f04c4bbcd65ae464ec01f2a81bcde21014996d74dcaa6f2de19cb6
+SHA256 (.footprint) = 0affc8ece2bd0f46646278483c5b23166b58d593a172aba89809e814367028fc
+SHA256 (quake2-7.20.tar.xz) = 64136239ba08747ddfe7c18c17f87a9cd3730cd4a867b6e438eee9f34415a0ad
+SHA256 (q2-3.20-x86-full-ctf.exe) = f82197c8c8089202a4b3a85d8833b0c2e827a709d205c760369407c212488baa
+SHA256 (yquake2.sh) = cd2f775c71357ab7e985f1498dfd1b97d12d00a9809f4ebe93d93b4a5beba032
+SHA256 (yamagi-quake2.desktop) = 294b3061ee38507a867050f868cdfbbec711ad0c4e99e255fa8c42a349536262

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/joacim.pub
+RWSuLkDXHdtCNoVYMKvbJFdVtcgyplqe3GleY9958KwQ1rKlKADVX5VOHzZV6PZ28ATva/jH4vHnfX8vHBaPUxQPjyPbTiLGWgs=
+SHA256 (Pkgfile) = 78f619d7919e24cbeac8e4af4b51d46bce80026391fe643e558f00efaf524130
+SHA256 (.footprint) = bb7e97170be7eeeca43cf27967c68429b5a99fbf1acaf4cbce6129e0cbd492bd
+SHA256 (weechat-2.3.tar.xz) = ef8654313bfb0ca92e27cf579efb2d9b17e53505e615bf3d71a51aef44e56a5f

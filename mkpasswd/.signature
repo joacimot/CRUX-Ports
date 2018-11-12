@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/joacim.pub
+RWSuLkDXHdtCNsAFOnArF32Wdpn6lfHf+6PvRt34QHwNcmkemN/AI/msP+1V1zuG1s5kSzfp7rwzKgI6y1gtsMbaMDGBIrOXzwM=
+SHA256 (Pkgfile) = bb8b102c820bf3f3de9e5b2b0e0acb74d070630a43728380df165499b2f2f319
+SHA256 (.footprint) = f17406505348eac8c126565ddef80076ddfce13f2d460fd30022a62b1d790100
+SHA256 (String-MkPasswd-0.05.tar.gz) = 5310f83460045475071666b5423db2f0aa82d6685c802ec7abe6c2c410639b96

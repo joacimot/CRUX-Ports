@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/joacim.pub
+RWSuLkDXHdtCNjlDQckHDQme1zsRFiRIUg/qXvhpnyx00jZS9MoHW9XKauizRV4RrPIqNkz3kd1jrnKBLf66nJq/L10v0gFrag4=
+SHA256 (Pkgfile) = d289223c1e091e5ac70256c446ee43db050268cdd651a59d8233328d4816edd4
+SHA256 (.footprint) = c6b9f72f00d4d91d117c5c7dc38c79d8053c9cb1d3f9bdfb7357af64ad330891
+SHA256 (transmission-remote-cli-v1.7.1.tar.gz) = e9135a440d48761f00e990cd0b6eb4c378b82041c479f4624f5c1a27d99d10f8
