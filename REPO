@@ -12,6 +12,7 @@ d:transmission-remote-cli
 d:weechat
 d:quakespasm
 d:yamagi-quake2
+d:libqalculate
 f:d9ace164688e5b452f8c34682a381e98:aspell-nb/.footprint
 f:c90faad1cc7d61b9cbd95b5c39a90631:aspell-nb/.signature
 f:7a3a90df7185641ae5208309262c9a34:aspell-nb/Pkgfile
@@ -62,3 +63,6 @@ f:66798aea70536959b655456924130c81:yamagi-quake2/Pkgfile
 f:fb1c0df5eec09cd450c961d7a91e7989:yamagi-quake2/README
 f:51c53a38d5839aadccceb1e591a3752c:yamagi-quake2/yamagi-quake2.desktop
 f:1d8ce0e5e5706a73893a6968ce60a37e:yamagi-quake2/yquake2.sh
+f:81175197167dea664661e49afd2051a5:libqalculate/.signature
+f:54a4d43841839d679f3d999d6c252a7f:libqalculate/Pkgfile
+f:1d523b19ed293aa10060bae53b8ebe23:libqalculate/.footprint
