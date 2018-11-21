@@ -28,9 +28,9 @@ f:709ef47009e9f29303c6a6dabb72322a:dtach/Pkgfile
 f:ee7ac558ef8d528b9dffb04c1cceef77:inxi/.footprint
 f:3855e00264ba847448fdba80e53a947d:inxi/.signature
 f:23a7c123759b9b15a37f56fd4a582b88:inxi/Pkgfile
-f:941cb0f503ac9a6cb0c7114a3ff84d36:mkpasswd/.footprint
-f:efbf7e830c947ec17222bfefcfc49bd3:mkpasswd/.signature
-f:69c8be85c964a8053e9ab2203beec2f0:mkpasswd/Pkgfile
+f:d9d30849392a47bdcf37647b48bb2506:mkpasswd/.footprint
+f:8392fa543b1c4485067fc337e297b682:mkpasswd/.signature
+f:d876ba6c955a6351c6e56e94e3e9ea0c:mkpasswd/Pkgfile
 f:befd092d6baf4ee47a0e8903d9d8ad9b:mktorrent/.footprint
 f:3417ee267d6ac3e9ad165fd8e0d6a49b:mktorrent/.signature
 f:82ae5e519fdf3b32c44120b56c66ec78:mktorrent/Pkgfile
