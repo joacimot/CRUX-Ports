@@ -26,8 +26,8 @@ f:5427a97b6b9c1f358298e2d204d9a4dc:dtach/.footprint
 f:c5986cd4fc78c6d76f1534eb0b401a37:dtach/.signature
 f:709ef47009e9f29303c6a6dabb72322a:dtach/Pkgfile
 f:ee7ac558ef8d528b9dffb04c1cceef77:inxi/.footprint
-f:3855e00264ba847448fdba80e53a947d:inxi/.signature
-f:23a7c123759b9b15a37f56fd4a582b88:inxi/Pkgfile
+f:a98d37659109d78eed455050fe724452:inxi/.signature
+f:5583e68f646cf1d003ce29f092908206:inxi/Pkgfile
 f:d9d30849392a47bdcf37647b48bb2506:mkpasswd/.footprint
 f:8392fa543b1c4485067fc337e297b682:mkpasswd/.signature
 f:d876ba6c955a6351c6e56e94e3e9ea0c:mkpasswd/Pkgfile
