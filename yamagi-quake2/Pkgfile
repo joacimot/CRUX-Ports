@@ -1,10 +1,10 @@
 # Description: An alternative and improved client for id Softwares Quake II.
 # URL: http://yamagi.org/quake2/
 # Maintainer: Joacim Olsen Tangen, hi at joac dot im
-# Depends on: mesa3d libsdl2 openal libogg
+# Depends on: mesa3d libsdl2 openal libvorbis
 
 name=yamagi-quake2
-version=7.20
+version=7.30
 release=1
 source=(https://deponie.yamagi.org/quake2/quake2-$version.tar.xz https://deponie.yamagi.org/quake2/idstuff/q2-3.20-x86-full-ctf.exe yquake2.sh $name.desktop)
 
@@ -18,8 +18,10 @@ build() {
 
 	cmake .. -DCMAKE_BUILD_TYPE=Release \
 		-DSYSTEMWIDE_SUPPORT=ON \
-		-DSYSTEMDIR=/usr/share/games/quake2
-	make
+		-DSYSTEMDIR=/usr/share/games/quake2 \
+		-G Ninja
+	#make
+	ninja
 
 	install -D -m 755 release/quake2 $PKG/usr/share/games/$name/quake2
 	install -D -m 755 release/q2ded $PKG/usr/share/games/$name/q2ded
