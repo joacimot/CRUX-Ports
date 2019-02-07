@@ -2,7 +2,6 @@ d:aspell-nb
 d:aspell-nn
 d:autocutsel
 d:dtach
-d:inxi
 d:mkpasswd
 d:mktorrent
 d:netatalk
@@ -13,6 +12,7 @@ d:weechat
 d:quakespasm
 d:yamagi-quake2
 d:libqalculate
+d:inxi
 f:d9ace164688e5b452f8c34682a381e98:aspell-nb/.footprint
 f:c90faad1cc7d61b9cbd95b5c39a90631:aspell-nb/.signature
 f:7a3a90df7185641ae5208309262c9a34:aspell-nb/Pkgfile
@@ -25,9 +25,6 @@ f:d2c061b9f94f8de24caaf7989a9cec3e:autocutsel/Pkgfile
 f:5427a97b6b9c1f358298e2d204d9a4dc:dtach/.footprint
 f:c5986cd4fc78c6d76f1534eb0b401a37:dtach/.signature
 f:709ef47009e9f29303c6a6dabb72322a:dtach/Pkgfile
-f:ee7ac558ef8d528b9dffb04c1cceef77:inxi/.footprint
-f:a98d37659109d78eed455050fe724452:inxi/.signature
-f:5583e68f646cf1d003ce29f092908206:inxi/Pkgfile
 f:d9d30849392a47bdcf37647b48bb2506:mkpasswd/.footprint
 f:8392fa543b1c4485067fc337e297b682:mkpasswd/.signature
 f:d876ba6c955a6351c6e56e94e3e9ea0c:mkpasswd/Pkgfile
@@ -66,3 +63,6 @@ f:1d8ce0e5e5706a73893a6968ce60a37e:yamagi-quake2/yquake2.sh
 f:815eee6252e54a5a664dfb8c57efa947:libqalculate/.signature
 f:e032660aae270552cef62e0927d5f5bf:libqalculate/Pkgfile
 f:5cf0ae6539ae67f863205434adfb96dc:libqalculate/.footprint
+f:ee7ac558ef8d528b9dffb04c1cceef77:inxi/.footprint
+f:194eb23d88ed2fbf2b4908752ab48c10:inxi/.signature
+f:5d413ee5950e0aa62f06aeb5c2c49440:inxi/Pkgfile
