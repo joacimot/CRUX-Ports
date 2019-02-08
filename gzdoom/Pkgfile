@@ -1,0 +1,30 @@
+# Description: Port of ZDoom with an OpenGL renderer
+# URL: https://www.zdoom.org/
+# Maintainer: Joacim Olsen Tangen, hi at joac dot im
+# Depends on: cmake libjpeg-turbo libsdl2 openal fluidsynth gtk3
+
+name=gzdoom
+version=3.7.2
+release=1
+source=(https://zdoom.org/files/$name/src/$name-src-g$version.zip)
+
+build() {
+	cd $name-g$version
+
+	#patch -p1 -i $SRC/0001-Fix-soundfont-search-path.patch
+
+	mkdir build
+	cd build
+
+	cmake .. -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DINSTALL_PATH=bin \
+		-DINSTALL_PK3_PATH=share/doom
+
+	make
+	make DESTDIR=$PKG install
+
+	install -Dm644 soundfonts/gzdoom.sf2 $PKG/usr/share/doom/soundfonts/gzdoom.sf2
+
+	rm -r $PKG/usr/share/doc
+}

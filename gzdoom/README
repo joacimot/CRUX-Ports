@@ -1,0 +1,5 @@
+To play Doom, Heretic, or other games with this engine, you must copy the
+WAD or pk3 files to /usr/share/doom/ or ~/.config/gzdoom/
+
+You can find the original WAD files in the install directory of the original
+games.

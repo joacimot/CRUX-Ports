@@ -13,6 +13,8 @@ d:quakespasm
 d:yamagi-quake2
 d:libqalculate
 d:inxi
+d:fluidsynth1
+d:gzdoom
 f:d9ace164688e5b452f8c34682a381e98:aspell-nb/.footprint
 f:c90faad1cc7d61b9cbd95b5c39a90631:aspell-nb/.signature
 f:7a3a90df7185641ae5208309262c9a34:aspell-nb/Pkgfile
@@ -66,3 +68,10 @@ f:5cf0ae6539ae67f863205434adfb96dc:libqalculate/.footprint
 f:ee7ac558ef8d528b9dffb04c1cceef77:inxi/.footprint
 f:5b035a0242e41fc26fc382ee8bb09608:inxi/.signature
 f:7427ee25c2f37a11f038d19ed5d0e10d:inxi/Pkgfile
+f:b2fc39686fdb6e996ab694daa84086f1:fluidsynth1/.signature
+f:3994211570a3146332bb41dd86b78e9c:fluidsynth1/.footprint
+f:47065b8711f966e549a5c33b4c2e4e90:fluidsynth1/Pkgfile
+f:b20020922863512d488817fa54ea53bc:gzdoom/.signature
+f:2671edd2cc9354f86b2a65ae499784c2:gzdoom/.footprint
+f:7baf45f69e33c22f5ee2eab950fed55a:gzdoom/Pkgfile
+f:85c385633a4dc3ed72da453493f1f6e2:gzdoom/README

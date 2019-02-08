@@ -1,0 +1,11 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/gzdoom
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/doom/
+-rw-r--r--	root/root	usr/share/doom/brightmaps.pk3
+-rw-r--r--	root/root	usr/share/doom/gzdoom.pk3
+-rw-r--r--	root/root	usr/share/doom/lights.pk3
+drwxr-xr-x	root/root	usr/share/doom/soundfonts/
+-rw-r--r--	root/root	usr/share/doom/soundfonts/gzdoom.sf2
+-rw-r--r--	root/root	usr/share/doom/zd_extra.pk3
