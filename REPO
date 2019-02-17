@@ -48,8 +48,8 @@ f:6a8f79ed5feaacfdb8522e6041130564:transmission-remote-cli/.footprint
 f:a08e8ddd020ee9c217bbbb40fb159386:transmission-remote-cli/.signature
 f:ed644e2d81a2b8371c691d84b8b28537:transmission-remote-cli/Pkgfile
 f:08d23a822df40da28f1adaf1d9a507cf:weechat/.footprint
-f:baec37d3ca40a31de641042ffefc49ba:weechat/.signature
-f:5bcb7b3ebcbeba42418356f15c87c810:weechat/Pkgfile
+f:47f62fc1b4e73c514158d277c3a9805e:weechat/.signature
+f:c50182ee8a3f713cdb9b141c17be479d:weechat/Pkgfile
 f:be35a00775dfbdc195bb6b6ea10f8401:quakespasm/.footprint
 f:dd71e37c94a76fe6dd09c52282a6d8c1:quakespasm/.signature
 f:b685fe29711172e855bb81954ec488b0:quakespasm/Pkgfile
