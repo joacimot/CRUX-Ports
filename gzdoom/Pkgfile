@@ -1,10 +1,10 @@
 # Description: Port of ZDoom with an OpenGL renderer
 # URL: https://www.zdoom.org/
 # Maintainer: Joacim Olsen Tangen, hi at joac dot im
-# Depends on: cmake libjpeg-turbo libsdl2 openal fluidsynth gtk3
+# Depends on: cmake libjpeg-turbo libsdl2 openal fluidsynth1 gtk3
 
 name=gzdoom
-version=3.7.2
+version=4.0.0
 release=1
 source=(https://zdoom.org/files/$name/src/$name-src-g$version.zip)
 

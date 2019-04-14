@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/joacim.pub
-RWSuLkDXHdtCNgeYa/lrRV1WfJHnMHiBksYLBy7Yzshz/O9RDWSHG+Fk0R83hBx4PBPrI1g3c87jQKN3ym46RotmVJCtY2gl9Ak=
-SHA256 (Pkgfile) = 994ed10dc9b9b761ffddb552a8f72100b22adba8ac2e5d4eefec2b2cdcbdaf7e
+RWSuLkDXHdtCNlCVk+kfXsVZnbATW87cfF5IpMnkpLWJwSha/Sdamxq6dgD+U6pzVc7ezyOqWcSpy27fTqn69hHpk4qC7bT8owA=
+SHA256 (Pkgfile) = fc7f123c19950f8a1143a4948966d28642772c5287cba3b8b799b5d6ae65ea59
 SHA256 (.footprint) = d6e900405362907b097fc1af2944f4fcffc68c3db60286b3261ef2cce4163d8b
-SHA256 (gzdoom-src-g3.7.2.zip) = 07375e80260ab233c2e95321cb88967da46f776f834beeed60a0a10a4c700205
+SHA256 (gzdoom-src-g4.0.0.zip) = bba14c3663f11569558acf6381be6b4c21ca0ad3b18199412488247124117330
