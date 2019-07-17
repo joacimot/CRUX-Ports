@@ -5,7 +5,7 @@
 # Nice to have: xorg-xprop, xorg-xdpyinfo, xorg-xrandr, mesa-demos, hddtemp, lm_sensors
 
 name=inxi
-version=3.0.32-1
+version=3.0.35-1
 release=1
 source=(https://github.com/smxi/$name/archive/$version/$name-$version.tar.gz)
 
