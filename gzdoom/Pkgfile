@@ -1,7 +1,7 @@
 # Description: Port of ZDoom with an OpenGL renderer
 # URL: https://www.zdoom.org/
 # Maintainer: Joacim Olsen Tangen, hi at joac dot im
-# Depends on: cmake libjpeg-turbo libsdl2 openal fluidsynth1 gtk3
+# Depends on: cmake libjpeg-turbo libsdl2 openal fluidsynth gtk3
 
 name=gzdoom
 version=4.2.0
@@ -16,7 +16,11 @@ build() {
 	mkdir build
 	cd build
 
+	local fluidsynthfix="-DFLUIDSYNTHLIB2=\\\"libfluidsynth.so.2\\\""
+
 	cmake .. -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_C_FLAGS="${CFLAGS} ${fluidsynthfix}" \
+		-DCMAKE_CXX_FLAGS="${CXXFLAGS} ${fluidsynthfix}" \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DINSTALL_PATH=bin \
 		-DINSTALL_PK3_PATH=share/doom
