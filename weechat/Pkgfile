@@ -2,10 +2,10 @@
 # URL: http://www.weechat.org/
 # Maintainer: Joacim Olsen Tangen, joacim at joac dot im
 # Depends on: libgcrypt, gnutls, cmake
-# Nice to have: perl, lua, python, ruby, asciidoc
+# Nice to have: perl, lua, python3, ruby, asciidoc
 
 name=weechat
-version=2.5
+version=2.6
 release=1
 source=(http://www.weechat.org/files/src/$name-$version.tar.xz)
 
