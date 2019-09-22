@@ -4,9 +4,9 @@
 # Depends on: cmake libjpeg-turbo libsdl2 openal fluidsynth gtk3
 
 name=gzdoom
-version=4.2.0
+version=4.2.1
 release=1
-source=(https://zdoom.org/files/$name/src/$name-src-g$version.zip)
+source=(https://github.com/coelckers/$name/archive/g$version/$name-g$version.zip)
 
 build() {
 	cd $name-g$version
