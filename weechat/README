@@ -1,0 +1,3 @@
+Weechat version >= 2.7 will fail configure checks when optional dependencies
+are missing. Change the value to 'on' if you want to enable those optional
+features.

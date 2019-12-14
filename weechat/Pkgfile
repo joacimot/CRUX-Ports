@@ -1,11 +1,11 @@
 # Description: WeeChat is a fast, light and extensible chat client
 # URL: http://www.weechat.org/
 # Maintainer: Joacim Olsen Tangen, joacim at joac dot im
-# Depends on: libgcrypt, gnutls, cmake
-# Nice to have: perl, lua, python3, ruby, asciidoc
+# Depends on: libgcrypt, gnutls, cmake, python3, perl
+# Nice to have: lua, ruby, asciidoc
 
 name=weechat
-version=2.6
+version=2.7
 release=1
 source=(http://www.weechat.org/files/src/$name-$version.tar.xz)
 
@@ -16,9 +16,18 @@ build() {
 	cd build
 
 	cmake .. -DCMAKE_INSTALL_PREFIX=/usr \
-		-DENABLE_MAN=on \
 		-DMANDIR=/usr/share/man \
 		-DENABLE_NLS=off \
+		-DENABLE_MAN=off \
+		-DENABLE_DOC=off \
+		-DENABLE_TCL=off \
+		-DENABLE_GUILE=off \
+		-DENABLE_JAVASCRIPT=off \
+		-DENABLE_PHP=off \
+		-DENABLE_RUBY=off \
+		-DENABLE_LUA=off \
+		-DENABLE_PYTHON2=off \
+		-DENABLE_SPELL=off \
 		-DCA_FILE=/etc/ssl/cert.pem
 	make
 	make DESTDIR=$PKG install
