@@ -4,7 +4,7 @@
 # Depends on: libsdl2 libvorbis libmad
 
 name=quakespasm
-version=0.93.1
+version=0.93.2
 release=1
 source=(https://download.sourceforge.net/$name/$name-$version.tgz $name.sh $name.desktop)
 
