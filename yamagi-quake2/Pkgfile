@@ -4,7 +4,7 @@
 # Depends on: mesa3d libsdl2 openal libvorbis cmake ninja
 
 name=yamagi-quake2
-version=7.42
+version=7.43
 release=1
 source=(https://deponie.yamagi.org/quake2/quake2-$version.tar.xz https://deponie.yamagi.org/quake2/idstuff/q2-3.20-x86-full-ctf.exe yquake2.sh $name.desktop)
 
