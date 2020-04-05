@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/joacim.pub
-RWSuLkDXHdtCNoB4uHSPVlFbz9LOdnm2e8hgFYALKsg4FLYqtKj+JzMOZAUrLrhKFI2ZruKYhCJKug1Tp2hPB46lSZfqqVo7EA8=
-SHA256 (Pkgfile) = 9b5af4f752015875f31a6a9ab61e21fff97d83b13fe9d2cf0cd91eb02e5f33a8
+RWSuLkDXHdtCNvuwMUhcLgApJgrvA2FNZE86pZd3XllXycT3A01aMebeW2ZbxEppm0zyIsg/8UojOnrepRY+cayvRUw1Scbj6A8=
+SHA256 (Pkgfile) = 5bd34d31b869861c7aacf7e4b8377c23ac085d92a330a77c1faefc110aa4848d
 SHA256 (.footprint) = 9e14b01def9b7edf3593937ef9ab8c93d822a8303e1bb1d08e1c528650095f9d
-SHA256 (inxi-3.0.37-1.tar.gz) = bc16d8b975a8ed064949bc8209e0c01c204c01c9046076f62709366e672bea40
+SHA256 (inxi-3.0.38-1.tar.gz) = 5adbbe8145e970de1d516a404554e887806d31382de81d290e71fe270183c28a
