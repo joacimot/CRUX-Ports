@@ -66,8 +66,8 @@ f:755feac474ede5c8b354d03813988b62:libqalculate/.signature
 f:d8124ff2c645ed60815d8914e6e5f6a2:libqalculate/Pkgfile
 f:eeb84e87a9fe181cd26fdd4e4d14dc6a:libqalculate/.footprint
 f:ee7ac558ef8d528b9dffb04c1cceef77:inxi/.footprint
-f:62e552877075b0f7729c766708334647:inxi/.signature
-f:901d76d803200500eebb87bb305d431c:inxi/Pkgfile
+f:93b817bf3c59bbe86dbbaecf7302f1ec:inxi/.signature
+f:92ef73a80c33b5ccefe1622be778a0ad:inxi/Pkgfile
 f:be9b570f77647e3e39fd5f296baf7d8c:gzdoom/.signature
 f:df867ceba41b13f32dfbeed008cda074:gzdoom/.footprint
 f:0cf977078bd3e7dcff55a5f9fcb1e993:gzdoom/Pkgfile
