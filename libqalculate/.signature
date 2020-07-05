@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/joacim.pub
-RWSuLkDXHdtCNsVaVQs/43IRIwdds+bY9S4RCkyoh3Tqwcg+XmbvcNzu/KkhPlwDFQGpq8fTI11V4QoOoxTY5JrWCDS/TVtozwY=
-SHA256 (Pkgfile) = 4fd836289cfc47b59f20eb830fbd939787f2f465a6d29c89afb7c65fe27c0847
-SHA256 (.footprint) = 7b33b3bbfaf239adf018cccb5a973b14fc855443a0c34659e2d8de9542d2bd53
-SHA256 (libqalculate-3.10.0.tar.gz) = c203ffb1926e2cfd94714b9c3d270d53eddd85d57565d3829bb9ee7407b196db
+RWSuLkDXHdtCNosT94NPwvZVuAXJ8+RoB1bzUVg/K9ZEefrSUBhBaTaIwJ24cuZBtuAI8SPxBpETyHwQkHoNotGNyX0hvzo45Ak=
+SHA256 (Pkgfile) = 85ff62368ee57e65dd9f1d129856290e54afe91c75b45f8bffbf297d31afd0d7
+SHA256 (.footprint) = bd834d17735928e508afbc9bdc1a9f2a5914fa7b65d6372f7b41db4e9b6cc16a
+SHA256 (libqalculate-3.11.0.tar.gz) = 6992ff25774a15d6a0b09542b1f137dd5dc00995dfe9a765205ec2da39b4e13f
