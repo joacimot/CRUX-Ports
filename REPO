@@ -62,9 +62,9 @@ f:b5327e27963cc733010034536c6fc9ae:yamagi-quake2/Pkgfile
 f:fb1c0df5eec09cd450c961d7a91e7989:yamagi-quake2/README
 f:51c53a38d5839aadccceb1e591a3752c:yamagi-quake2/yamagi-quake2.desktop
 f:1d8ce0e5e5706a73893a6968ce60a37e:yamagi-quake2/yquake2.sh
-f:34af106af647ccae4a1298de9429ae18:libqalculate/.signature
-f:389fddc4f83dd4bc98fa273cd64e90a4:libqalculate/Pkgfile
-f:d87bb51260091efee0b4a2aca26cda9c:libqalculate/.footprint
+f:72a457ecfb9440997f1164a57c223f46:libqalculate/.signature
+f:4e5f86987134a9512e874d6b1c695ebc:libqalculate/Pkgfile
+f:75e1f262fc9cadfbd4ecb1583d510025:libqalculate/.footprint
 f:ee7ac558ef8d528b9dffb04c1cceef77:inxi/.footprint
 f:9b92be2449d45dae6d01411254383595:inxi/.signature
 f:7dbd30845019535e81ff09655be6bb50:inxi/Pkgfile
