@@ -4,7 +4,7 @@
 # Depends on: mesa3d libsdl2 openal libvorbis cmake ninja
 
 name=yamagi-quake2
-version=7.43
+version=7.45
 release=1
 source=(https://deponie.yamagi.org/quake2/quake2-$version.tar.xz https://deponie.yamagi.org/quake2/idstuff/q2-3.20-x86-full-ctf.exe yquake2.sh $name.desktop)
 
@@ -18,9 +18,7 @@ build() {
 
 	cmake .. -DCMAKE_BUILD_TYPE=Release \
 		-DSYSTEMWIDE_SUPPORT=ON \
-		-DSYSTEMDIR=/usr/share/games/quake2 \
 		-G Ninja
-	#make
 	ninja
 
 	install -D -m 755 release/quake2 $PKG/usr/share/games/$name/quake2
