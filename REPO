@@ -12,7 +12,6 @@ d:weechat
 d:quakespasm
 d:yamagi-quake2
 d:libqalculate
-d:inxi
 d:gzdoom
 d:tremc
 f:d9ace164688e5b452f8c34682a381e98:aspell-nb/.footprint
@@ -66,9 +65,6 @@ f:1d8ce0e5e5706a73893a6968ce60a37e:yamagi-quake2/yquake2.sh
 f:72a457ecfb9440997f1164a57c223f46:libqalculate/.signature
 f:4e5f86987134a9512e874d6b1c695ebc:libqalculate/Pkgfile
 f:75e1f262fc9cadfbd4ecb1583d510025:libqalculate/.footprint
-f:ee7ac558ef8d528b9dffb04c1cceef77:inxi/.footprint
-f:9b92be2449d45dae6d01411254383595:inxi/.signature
-f:7dbd30845019535e81ff09655be6bb50:inxi/Pkgfile
 f:be9b570f77647e3e39fd5f296baf7d8c:gzdoom/.signature
 f:df867ceba41b13f32dfbeed008cda074:gzdoom/.footprint
 f:0cf977078bd3e7dcff55a5f9fcb1e993:gzdoom/Pkgfile
