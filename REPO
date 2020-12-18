@@ -1,7 +1,6 @@
 d:aspell-nb
 d:aspell-nn
 d:autocutsel
-d:dtach
 d:mkpasswd
 d:mktorrent
 d:netatalk
@@ -23,9 +22,6 @@ f:a5d0dbfaae98c76e7b227165ad52f844:aspell-nn/Pkgfile
 f:959de44f966d43f1b006997e9fa10ae7:autocutsel/.footprint
 f:520f1312ab55ca377f9af617d244838f:autocutsel/.signature
 f:d2c061b9f94f8de24caaf7989a9cec3e:autocutsel/Pkgfile
-f:5427a97b6b9c1f358298e2d204d9a4dc:dtach/.footprint
-f:c5986cd4fc78c6d76f1534eb0b401a37:dtach/.signature
-f:709ef47009e9f29303c6a6dabb72322a:dtach/Pkgfile
 f:d9d30849392a47bdcf37647b48bb2506:mkpasswd/.footprint
 f:8392fa543b1c4485067fc337e297b682:mkpasswd/.signature
 f:d876ba6c955a6351c6e56e94e3e9ea0c:mkpasswd/Pkgfile
