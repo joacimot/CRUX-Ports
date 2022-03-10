@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/joacim.pub
-RWSuLkDXHdtCNpT7/nG2FvjoRa8zAcMzIffqdN8kFTsgYpSz88Kp2buDUgsQIJURChppTFdP7B3H687PVDqnlRC8XS50a2wWFwE=
-SHA256 (Pkgfile) = 93605989807af7b31e55a5b34cac7ba72d2a8ea8bef7c0c06c1800f52d33f582
+RWSuLkDXHdtCNraUg+MdvOK1geqASHlfKVAmqzz01ns9jKzi7l1u5SVD2+ToeTAusYxeF/9WKl4BVCYJE5j2kabzS4Jku2DqgQI=
+SHA256 (Pkgfile) = fdb056dbd8eb1f55e37324754f75de9c218b7d1f24a6d4be672e7bbb4688b1fc
 SHA256 (.footprint) = e56f30ad5ccb69de860107e6cf82f2b9efa720f635eb3bcf6750ea562a66a72b
-SHA256 (tremc-0.9.2.tar.gz) = ea31ff593c64bbf2c471f6c45ef09129e1e9cb55e8f8bd90e2916976a7053c61
+SHA256 (tremc-0.9.3.tar.gz) = 57917eac90760d33f47c222fb4ee24d554934cd43cdf76c6a1d8104d2dc7a738
